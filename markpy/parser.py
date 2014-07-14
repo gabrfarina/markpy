@@ -17,13 +17,9 @@
 # limitations under the License.
 
 
-import sys
-import argparse
 import string
-import re
-import base64
-from elementNode import *
-from elementStack import ElementStack
+from elementnode import *
+from elementstack import ElementStack
 
 class Parser:
 	""" This is the parser for the MarkSC language. It provides a static
